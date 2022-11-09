@@ -23,20 +23,20 @@
     .footer {
         max-width: 58.13%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-self: start;
         height: auto;
         margin: 0 5% 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) and (max-width: 767px) {
     .footer {
         max-width: 58.13%;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-self: start;
         height: auto;
-        margin: 0 16px 24px;
+        margin: 0 5% 24px;
     }
 }
