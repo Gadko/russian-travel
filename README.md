@@ -5,6 +5,8 @@
 
 **Какие технологии использовались в проекте?**
 
-* Технология Grid Layout.
-* Технология Flex.
+* Технология Grid Layout
+* Технология Flex
+
+[Ссылка на GitHub проект](https://github.com/Gadko/russian-travel)
 
