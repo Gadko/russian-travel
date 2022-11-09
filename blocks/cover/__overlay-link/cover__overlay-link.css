@@ -1,0 +1,8 @@
+.cover__overlay-link {
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+
+.cover__overlay-link:hover {
+    opacity: 0.8;
+}

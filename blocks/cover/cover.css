@@ -1,0 +1,22 @@
+.cover {
+    margin: 92px auto 92px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+
+.cover:hover .cover__overlay {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin: 90px 0 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin: 66px 0 64px;
+    }
+}

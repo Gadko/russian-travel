@@ -1,0 +1,32 @@
+.plaсes__plaсe {
+    display: grid;
+    grid-template-areas:
+    "title website"
+    "img paragraph";
+    gap: 48px 40px;
+    justify-self: center;
+}
+
+@media screen and (max-width: 767px) {
+    .plaсes__plaсe {
+        grid-template-areas:
+        "title"
+        "website"
+        "img"
+        "paragraph";
+        gap: 32px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .plaсes__plaсe {
+        grid-template-areas:
+        "title"
+        "website"
+        "img"
+        "paragraph";
+        gap: 32px;
+    }
+    
+}
