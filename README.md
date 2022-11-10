@@ -8,5 +8,5 @@
 * Технология Grid Layout
 * Технология Flex
 
-[Ссылка на GitHub проект](https://github.com/Gadko/russian-travel)
+[Ссылка на GitHub проект](https://gadko.github.io/russian-travel/)
 
