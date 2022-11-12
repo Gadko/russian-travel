@@ -1,0 +1,24 @@
+.travel {
+    max-width: 77%;
+    margin: 57px auto 0;
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .travel {
+        max-width: 91%;
+        margin: 48px auto 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .travel {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .travel {
+        margin: 40px auto 0;
+    }
+}

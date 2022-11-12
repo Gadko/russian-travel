@@ -1,0 +1,32 @@
+.travel__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin: 32px auto 64px;
+    width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+    .travel__subtitle {
+        width: 62%;
+        margin-bottom: 56px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .travel__subtitle {
+        width: 83%;
+        margin: 32px auto 56px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .travel__subtitle {
+        width: 90%;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 16px auto 40px;
+    }
+}

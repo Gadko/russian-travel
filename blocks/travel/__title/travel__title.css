@@ -1,0 +1,24 @@
+.travel__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0 auto 0;
+    width: 720px;
+}
+
+@media screen and (max-width: 767px) {
+    .travel__title {
+        width: 94% ;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .travel__title {
+        margin-top: 48px;
+        width: 288px;
+    }
+}

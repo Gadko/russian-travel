@@ -1,0 +1,35 @@
+.plaсe {
+    display: grid;
+    grid-template-areas:
+    "title website"
+    "img paragraph";
+    gap: 48px 40px;
+    justify-self: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .plaсe {
+        gap: 46px 30px;
+    }
+    
+}
+
+@media screen and (max-width: 936px) {
+    .plaсe {
+        width: 720px;
+        gap: 32px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .plaсe {
+        grid-template-areas:
+        "title"
+        "website"
+        "img"
+        "paragraph";
+
+    }
+    
+}

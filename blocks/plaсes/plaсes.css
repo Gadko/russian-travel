@@ -1,5 +1,5 @@
 .plaсes {
-    max-width: 1280px;
+    max-width: 984px;
     min-width: 320px;
     margin: auto;
     display: grid;
@@ -8,6 +8,13 @@
     width: 100%;
     margin-top: 92px;
     gap: 80px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .plaсes {
+        gap: 62px;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -19,7 +26,8 @@
 
 @media screen and (max-width: 320px) {
     .plaсes {
-        gap: 50px 0;
+        margin-top: 66px;
+        gap: 24px 0;
     }
     
 }

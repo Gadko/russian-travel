@@ -1,26 +1,26 @@
 .intro {
     color: #fff;
-    max-width: 53.9%;
-    margin: 92px 11.56% 0;
+    max-width: 54%;
+    margin: 87px 11.5% 0;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        max-width: 67.4%;
-        margin: 88px 24px 0;
+        max-width: 67%;
+        margin: 88px 48px 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        max-width: 93.75%;
-        margin: 88px 24px 0;
+        max-width: 94%;
+        margin: 84px 22px 0;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro {
         max-width: 90%;
-        margin: 64px 16px 0;
+        margin: 58px 16px 0;
     }
 }

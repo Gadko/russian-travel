@@ -1,0 +1,17 @@
+.plaсe__paragraph {
+    margin-bottom: 26px;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .plaсe__paragraph {
+        margin-bottom: 26px;
+        
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .plaсe__paragraph {
+        margin-bottom: 25px;
+    }
+}
