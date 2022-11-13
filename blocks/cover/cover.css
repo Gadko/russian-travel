@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 100%;
+    position: relative;
 }
 
 .cover:hover .cover__overlay {
@@ -23,6 +24,6 @@
 
 @media screen and (max-width: 320px) {
     .cover {
-        margin: 66px 0 64px;
+            margin: 51px 0 65px;
     }
 }

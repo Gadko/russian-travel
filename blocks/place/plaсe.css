@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 936px) {
     .plaсe {
-        width: 720px;
+        width: 100%;
         gap: 32px;
     }
     
@@ -24,6 +24,7 @@
 
 @media screen and (max-width: 767px) {
     .plaсe {
+        justify-items: center;
         grid-template-areas:
         "title"
         "website"
