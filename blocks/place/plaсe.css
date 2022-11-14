@@ -4,7 +4,6 @@
     "title website"
     "img paragraph";
     gap: 48px 40px;
-    justify-self: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,7 +23,6 @@
 
 @media screen and (max-width: 767px) {
     .plaсe {
-        justify-items: center;
         grid-template-areas:
         "title"
         "website"
